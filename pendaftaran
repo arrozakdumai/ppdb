@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pendaftaran Siswa Baru - Sekolah ABC</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0; background: #f0f0f0;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    h1, h2 {
+      color: #004080;
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #004080;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sekolah ABC</h1>
+    <p>Pendaftaran Siswa Baru Tahun Ajaran 2025/2026</p>
+  </header>
+  <main>
+    <h2>Formulir Pendaftaran Online</h2>
+    <!-- Ganti bagian src di bawah dengan kode embed Google Form Anda -->
+    <iframe src="https://docs.google.com/forms/d/e/FORM_ID/viewform?embedded=true">Memuat…</iframe>
+  </main>
+  <footer>
+    &copy; 2025 Sekolah ABC. Semua hak cipta dilindungi.
+  </footer>
+</body>
+</html>
